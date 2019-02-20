@@ -1,2 +1,11 @@
 @import 'base.css';
 
+.hd {background-color: black; position: fixed; width: 100%;}
+.top1 {border-bottom: 1px solid #777373; width: 100%; height: 45px;}
+.left {float: left;}
+.right {float: right;}
+.left > li {float:left; margin: 1rem;}
+.left > li:first-child {color:#777373; font-weight: bold;}
+.left > li:nth-child(2) {color:#777373; font-weight: bold;}
+
+.bg_black > img {width: 100%;}
