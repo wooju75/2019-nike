@@ -1,0 +1,25 @@
+[debug] [2019-02-20T09:13:52.644Z] ----------------------------------------------------------------------
+[debug] [2019-02-20T09:13:52.647Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-20T09:13:52.647Z] CLI Version:   6.3.1
+[debug] [2019-02-20T09:13:52.647Z] Platform:      win32
+[debug] [2019-02-20T09:13:52.647Z] Node Version:  v10.15.1
+[debug] [2019-02-20T09:13:52.650Z] Time:          Wed Feb 20 2019 18:13:52 GMT+0900 (GMT+09:00)
+[debug] [2019-02-20T09:13:52.650Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-20T09:13:52.669Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-20T09:13:52.669Z] > authorizing via signed-in user
+[debug] [2019-02-20T09:13:52.670Z] [iam] checking project wooju-nike for permissions ["firebase.projects.get"]
+[debug] [2019-02-20T09:13:52.673Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/wooju-nike:testIamPermissions  
+
+[debug] [2019-02-20T09:13:54.156Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-20T09:13:54.158Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/wooju-nike  
+ 
+[debug] [2019-02-20T09:13:55.398Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\vscode\nike'...
+[info] 
+[debug] [2019-02-20T09:13:55.401Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/556772639919/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-20T09:13:56.245Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
